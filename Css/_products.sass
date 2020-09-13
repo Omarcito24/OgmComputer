@@ -1,0 +1,192 @@
+.section
+    margin: auto 
+
+
+@media screen and ( max-width: 1400px ) and (min-width: 768px)
+    .productos__tittle
+        color: $azul-oscuro
+        font-size: 4em
+        border-bottom: 1px solid #c4c4c480
+        margin-top: 1em
+        padding-bottom: .20em
+        font-family: $quando
+
+    .productos__image-main
+        width: 300px
+        float: right
+        margin-top: 3em
+        margin-right: 10em
+
+
+    .productos__p
+        font-size: 1.5em
+        font-weight: lighter
+        font-family: $roboto
+        margin-top: 1em
+        width: 86%
+
+    .productos__desaparecer
+        display: block
+
+@media screen and ( max-width:  767px) and (min-width: 575px)
+    .productos__tittle
+        color: $azul-oscuro
+        font-family: $quando
+        font-size: 3em
+        border-bottom: 1px solid $gris
+        margin-top: 1em
+        padding-bottom: .20em
+
+    .productos__image-main
+        width: 300px
+        float: right
+        margin-top: 1.5em
+
+
+    .productos__p
+        font-size: 1.3em
+        font-weight: lighter
+        font-family: $roboto
+        margin-top: 1.5em
+        width: 100%
+
+    .productos__desaparecer
+        display: block
+
+@media screen and ( max-width:  575px) and (min-width: 0)
+    .productos__tittle
+        color: $azul-oscuro
+        font-family: $quando
+        font-size: 3.4em
+        border-bottom: 1px solid $gris
+        margin-top: 1em
+        padding-bottom: .20em
+
+    .productos__image-main
+        width: 200px
+        float: right
+        margin-top: 1.5em
+
+
+    .productos__p
+        font-weight: lighter
+        font-size: 1em
+        margin-top: 1.5em
+        font-family: $roboto
+        width: 100%
+
+    .productos__desaparecer
+        display: none
+
+    //SE FINALIZO LA PRIMERA PARTE DE EL SECTION
+
+@media screen and ( max-width:  1400px) and (min-width: 992px)
+
+.productos__container
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+
+.nosotros
+    display: grid
+    grid-template-columns: 1fr 1fr
+    margin: 13em auto
+
+.nosotros__tittle
+    font-weight: bolder
+    color: $azul-oscuro
+    width: 100%
+
+.nosotros__tittle-1
+    font-size: 3.3em
+    border-bottom: 1px solid #c4c4c480
+    padding-bottom: .50em
+    width: 80%
+
+
+.nosotros__p
+    color: #080350
+    font-size: 1.4em
+    margin-top: 2em
+    font-family: $quando
+    margin-right: 1em
+
+.nosotros__list
+    color: #999999
+    font-size: 1.8em
+    font-family: $roboto
+    font-weight: lighter
+    margin-top: 2em
+    position: relative
+    left: .5em
+
+.nosotros__item
+    padding-bottom: .4em
+    
+.nosotros__btn
+    position: relative
+    right: 6em
+    &:hover
+        transform: scale(1.1)
+
+.nosotros__2
+    margin-left: 2em
+
+.nosotros__tittle-2
+    font-size: 3.3em
+    border-bottom: 1px solid #c4c4c480
+    padding-bottom: .50em
+    width: 80%
+    margin-bottom: .8em
+
+.nosotros__tittle-5,
+.nosotros__tittle-4,
+.nosotros__tittle-3
+    font-size: 1.7em
+    font-weight: lighter
+    margin-bottom: 1em
+    margin-top: 1em
+
+.nosotros__p-2,
+.nosotros__p-3,
+.nosotros__p-4
+    color: #999999
+    font-size: 1.7em
+    font-weight: lighter
+    line-height: 1.9em
+    margin-bottom: 2em
+    border-bottom: 1px solid #0000003a
+    padding-bottom: .8em
+
+
+
+
+@media screen and ( max-width:  992px) and (min-width: 768px)
+    .productos__container
+        display: grid
+        grid-template-columns: 1fr 1fr
+
+    .nosotros
+        display: grid
+        grid-template-columns: 1fr
+
+    .nosotros__btn
+        top: -3em
+
+
+@media screen and ( max-width: 769px) and (min-width: 0)
+    .productos__container
+        display: none
+
+    .nosotros
+        display: grid
+        grid-template-columns: 1fr
+
+    .nosotros__btn
+        top: -3em
+        left: 15em
+    
+    .nosotros__tittle-1
+        font-size: 2.7em
+
+    
+

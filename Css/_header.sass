@@ -1,0 +1,95 @@
+.header
+    height: 700px
+    top: -1em
+    font-family: $roboto
+    position: relative
+    background-attachment: fixed
+    background-position: center
+    background: #0099F7  
+    background: linear-gradient(to right, rgba(241, 22, 18, 0.507), rgba(0, 152, 247, 0.548)), url(../Header/Banner.jpg)
+    background-size: cover
+    background-repeat: no-repeat
+    width: 100%
+
+.header__img
+    width: 70px
+    cursor: pointer
+
+.header__wave
+    position: absolute
+    width: 100%
+    top: 29em
+    background-attachment: fixed
+    background-size: cover
+    background-position: center
+
+    
+
+.header__navegation
+    height: auto
+    font-size: 1.1em
+    color: white
+    background-attachment: fixed
+    animation-duration: 1.70s
+
+
+.header__menu
+    list-style: none
+
+.header__btn
+    border: 1px solid rgb(255, 255, 255)
+    color: rgba(255, 255, 255, 0.753)
+    &:hover
+        background: $gradiente
+        color: white
+            
+.header__collapse-button
+    color: white
+
+@media screen and ( max-width: 576px )
+    .header__menu
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+
+    .header__link
+        font-size: 1.3em
+        font-weight: bolder
+        color: white
+        &:hover
+            transform: scale(1.5)
+            color: #ffff
+            
+
+@media screen and ( max-width: 768px ) and (min-width: 576px)
+    .header__link
+        font-weight: bolder
+        color: white
+        &:hover
+            border-bottom: 1px solid #ffffff
+            padding: .60em
+            color: white
+
+@media screen and ( max-width: 991px ) 
+    .header__form
+        display: grid
+        grid-template-columns: 1fr
+
+    .header__btn
+        margin-top: .40em
+
+
+@media screen and ( max-width: 1400px ) and (min-width: 768px)
+
+    .header__link
+        color: #ffffffad
+        transition: padding .30s
+        padding-right: .50em
+        &:hover
+            border-bottom: 1px solid #ffffff
+            padding: .60em
+            color: white
+            
+
+
+
