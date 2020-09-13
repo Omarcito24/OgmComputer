@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--FONT OWSWAL-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <!--FONT ROBOTO-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--FONT QUANDO-->
+    <link href="https://fonts.googleapis.com/css2?family=Quando&display=swap" rel="stylesheet">
+    <!--ANIMATE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--ESTILOS CSS-->
+    <link rel="stylesheet" href="Css/main.css">
+    <!--IMG HOVER-->
+    <link rel="stylesheet" href="imagehover.css-master/css/imagehover.css">
+    <link rel="stylesheet" href="imagehover.css-master/css/imagehover.min.css">
+
+    <title>Home</title>
+</head>
+
+<body class="animate__animated animate__bounceInLeft">
+    <header class="header mt-2" style="background-attachment: fixed;">
+        <nav class="navbar navbar-dark navbar-expand-lg header__navegation animate__animated animate__bounceInDown">
+            <a href="index.html">
+                <img src="Header/logo .svg" class="header__img">
+            </a>
+            <a class="navbar-toggler header__collapse-button" data-target="#collapse" data-toggle="collapse">
+                <i class="fas fa-bars"></i>
+            </a>
+            <div class="header__collapse collapse navbar-collapse" id="collapse">
+                <ul class="header__menu navbar nav mr-auto flex-wrap">
+                    <li class="nav-item header__li">
+                        <a href="index.html" class="nav-link header__link d-none">Home</a>
+                    </li>
+                    <li class="nav-item header__li">
+                        <a href="Nosotros.html" class="nav-link header__link">Nosotros</a>
+                    </li>
+                    <li class="nav-item header__li">
+                        <a href="Productos.html" class="nav-link header__link">Productos</a>
+                    </li>
+                    <li class="nav-item header__li dropdown">
+                        <a href="Servicios.html" class="nav-link header__link dropdown-toggle" data-toggle="dropdown">Servicios</a>
+                        <div class="dropdown-menu">
+                            <a href="#services" class="dropdown-item">Html</a>
+                            <a href="#services" class="dropdown-item">Css</a>
+                            <a href="#services" class="dropdown-item">JavaScript</a>
+                        </div>
+                    </li>
+                    <li class="nav-item header__li">
+                        <a href="Contacto.html" class="nav-link header__link">Contacto</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 header__form">
+                    <input type="text" placeholder="Buscar" class="form-control mr-sm-1 header__input">
+                    <button class="btn header__btn ">Buscar</button>
+                </form>
+            </div>
+        </nav>
+        <div style="height: 250px; overflow: hidden;" class="header__wave">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: rgb(255, 255, 255);"></path>
+            </svg>
+        </div>
+    </header>
+    <!--RECORDAR QUE EL HOME ESTA EN D-NONE PORQUE ESTA ES LA PAGINA CENTRAL-->
+
+    <!----------------------------------------------------------SE FINALIZO EL HEADER--------------------------->
+    <div class="container">
+        <div class="row">
+            <main class="services" id="services">
+                <div class="col-12 col-lg-6 services__col-1">
+                    <img src="Main/img-1.svg" alt="" class="services__img services__img-1">
+                    <h1 class="services__tittle">Curso de Html</h1>
+                    <p class="services__p services__p-3">HTML es el lenguaje sobre el que está construida toda la web y
+                        su estándar
+                        HTML5 la revolucionó por completo haciendo del navegador el programa más usado en el mundo,
+                        Nesecitas saber navegar por internet y tener curiosidad por cómo funciona la web. Este curso es
+                        desde cero y te inicia en el desarrollo web.</p>
+
+                </div>
+                <div class="col-12 col-lg-6 services__col-2">
+                    <img src="Main/img-2.svg" alt="" class="services__img services__img-2">
+                    <h1 class="services__tittle">Curso de Css</h1>
+                    <p class="services__p services__p-3">CSS ya no solo se encarga de ayudarnos a hacer páginas bonitas.
+                        Con este
+                        curso lograrás entender de forma detallada cómo funcionan algunos de los módulos más importantes
+                        de CSS. Verás casos prácticos en cada clase y notarás la fuerza y capacidad que tiene a pesar de
+                        ser un lenguaje de estilos.</p>
+
+                </div>
+                <div class="col-12 col-lg-7 services__col-3">
+                    <img src="Main/img-3.svg" alt="" class="services__img services__img-3">
+                    <h1 class="services__tittle services__tittle-3">Curso de JavaScript</h1>
+                    <p class="services__p services__p-3">JavaScript es el único lenguaje que te ofrece utilizar tus
+                        conocimientos
+                        tanto en el frontend como en el backend. Aprende las bases de este lenguaje y así estarás
+                        encaminado a poder decidir el camino que más te guste o tomar ambos y convertirte en un
+                        Desarrollador FullStack.</p>
+
+                </div>
+            </main>
+            <!----------------------------------------------------SE FINALIZO EL MAIN-------------------------------->
+            <section class="productos">
+                <div class="col-12">
+                    <h1 class="productos__tittle">Nuestros productos</h1>
+                    <img src="Section/img-6.svg" class="productos__image-main">
+                    <p class="productos__p">Nuestros productos son muy bien valorados ya que nuestro proveedores se
+                        aseguran
+                        de dejarlo todo en la elaboracion de ellos,Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                        Pariatur consequuntur dolorum optio illum ipsum quod! Debitis fugit aspernatur facilis at quasi,
+                        quidem cumque nam alias nesciunt facere ex architecto deleniti! Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Porro accusantium, beatae hic velit perspiciatis quo, corporis
+                        autem repellat eum perferendis tenetur id quod nisi ullam quia repudiandae ipsam. Dolores,
+                        veniam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore ratione adipisci harum
+                        at sed, facilis beatae ut unde distinctio voluptatum praesentium temporibus officia fuga tenetur
+                        provident nulla rerum, quae dolor.<span class="productos__desaparecer"> Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Corrupti consectetur quae error laborum natus in officia
+                            harum animi minus? Ullam dicta consequatur magnam, neque deserunt ut nesciunt minima maxime
+                            quibusdam. Lorem ipsum dolor sit, amet conse adipisicing elit. Exercitationem quas
+                            reprehenderit obcaecati provident consectetur consequuntur tempora eos su veritatis. Tempore
+                            repudiandae animi es dolorem, amet aut odit beatae ex obcaecati?</span>
+                    </p>
+                </div>
+
+                <div class="productos__container ">
+                    <figure class="imghvr-push-right mt-5" style="background: white;">
+                        <img src="Section/img-1.svg" class="productos__img-1" style="height: 200px; width: 200px;">
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm font-weight-bold " style="font-size: 2.7em;">
+                                Estilo
+                                Tecnologico</h3>
+                            <p class="ih-zoom-in ih-delay-md" style="font-size: 1.4em;">El estilo tecnológico ha
+                                sido considerado como una
+                                herramienta útil para estudiar los patrones de variación cultural y para
+                                identificar
+                                y
+                                explorar límites sociales a través del registro material.</p>
+                        </figcaption>
+                        <a href="#"></a>
+                    </figure>
+
+                    <figure class="imghvr-push-right mt-5" style="background: white;">
+                        <img src="Section/img-2.svg" class="productos__img-2" style="height: 200px; width: 200px;">
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm font-weight-bold " style="font-size: 2.5em;">
+                                Responsive desing</h3>
+                            <p class="ih-zoom-in ih-delay-md" style="font-size: 1.4em;">Con ésta técnica se
+                                consigue
+                                que el contenido del diseño de tu sitio se vea bien y pueda ser bastante
+                                legible
+                                para los usuarios sobre el dispositivo con el que éste interactúe.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="imghvr-push-right mt-5" style="background: white;">
+                        <img src="Section/img-3.svg" class="productos__img-3" style="height: 200px; width: 200px;">
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm font-weight-bold " style="font-size: 2.7em;">
+                                Code
+                                limpio</h3>
+                            <p class="ih-zoom-in ih-delay-md" style="font-size: 1.2em;">Existen varias
+                                definiciones,
+                                y a mi parecer todas son correctas, una de las mas completas que he
+                                visto es la de
+                                Bjarne Stroustrup inventor de C++ y autor de The C++ Programming
+                                Language, El código
+                                limpio es simple, y elegante, debe ser sencillo de leer, fácil de
+                                extender.
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="imghvr-push-left mt-5" style="background: white;">
+                        <img src="Section/img-4.svg" class="productos__img-4" style="height: 200px; width: 200px;">
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm font-weight-bold " style="font-size: 2.4em;">Trabajo
+                                en equipo</h3>
+                            <p class="ih-zoom-in ih-delay-md" style="font-size: 1.6em;"> La
+                                importancia del trabajo
+                                en equipo se basa en beneficios empresariales, como una mejor
+                                productividad y clima
+                                laboral, y en personales.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="imghvr-push-left mt-5" style="background: white;">
+                        <img src="Section/img-5.svg" class="productos__img-5" style="height: 200px; width: 200px;">
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm font-weight-bold " style="font-size: 3em;">
+                                SEO</h3>
+                            <p class="ih-zoom-in ih-delay-md" style="font-size: 1.6em;">es un
+                                conjunto de acciones
+                                orientadas a mejorar el posicionamiento de un sitio web en la
+                                lista de resultados de
+                                Google, Bing, u otros buscadores de internet.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="imghvr-push-left mt-5" style="background: white;">
+                        <img src="Section/img-6.svg" class="productos__img-6" style="height: 200px; width: 200px;">
+                        <figcaption>
+                            <h3 class="ih-fade-down ih-delay-sm font-weight-bold " style="font-size: 3em;">
+                                Seguridad
+                            </h3>
+                            <p class="ih-zoom-in ih-delay-md" style="font-size: 1.5em;">La
+                                seguridad informática es
+                                en realidad una rama de un término más genérico que es la
+                                seguridad de la
+                                información, aunque en la práctica se suelen utilizar de
+                                forma indistinta ambos
+                                términos. </p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <!----------------------------------------------------SE FINALIZO EL SECTION------------------------------>
+            <aside class="nosotros">
+                <div class="nosotros__1">
+                    <h1 class="nosotros__tittle nosotros__tittle-1">Nuestros distribuidores</h1>
+                    <p class="nosotros__p">Nuestros distribuidores se enfocan en crecer cada vez mas y aprenden de cada
+                        empresa
+                        grande que se adueña de el monopolio tecnologico, tales empresas como:</p>
+                    <ul class="nosotros__list">
+                        <li class="nosotros__item">Microsoft</li>
+                        <li class="nosotros__item">Kaspersky</li>
+                        <li class="nosotros__item">Veeam</li>
+                    </ul>
+                    <a href="#" class="btn services__btn nosotros__btn">Read More</a>
+                </div>
+                <div class="nosotros__2">
+                    <h1 class="nosotros__tittle nosotros__tittle-2">Nuestros Inicios</h1>
+                    <div class="nosotros__card-1">
+                        <h1 class="nosotros__tittle nosotros__tittle-3">Julio 2020 - Lanzamiento sistema OgmComputer
+                            Cloud
+                        </h1>
+                        <p class="nosotros__p-2">Sistema para la gestión de ventas para empresas pymes, que tiene como caracteristica
+                            principal de
+                            estar siempre disponible en la nube (cloud) para su acceso desde cualquier dispositivo con
+                            una
+                            conexión a internet.</p>
+                    </div>
+                    <div class="nosotros__card-2">
+                        <h1 class="nosotros__tittle nosotros__tittle-4">Diciembre 2019 - Implementación RRHH
+                            Laboratorios de
+                            Referencia</h1>
+                        <p class="nosotros__p-3"> Se implemento de manera exitosa la Nómina en la empresa lider en servicios clínicos de
+                            referencia, para la administración de un personal de casi mil (1,000) empleados.</p>
+                    </div>
+                    <div class="nosotros__card-3">
+                        <h1 class="nosotros__tittle nosotros__tittle-5">Enero 2020 - Implementación RRHH Dominican
+                            Watchman
+                        </h1>
+                        <p class="nosotros__p-4">Se implemento de manera exitosa la Nómina en la empresa lider en seguridad en el país,
+                            Dominican
+                            Watchman, para la administración de un personal de más de tres (3,000) empleados.</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-----------------------------------------------------------SE FINALIZO EL ASIDE------------------------------->
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
